@@ -1,0 +1,18 @@
+const strings = ['a','b','c','d'];
+//4 items 4 shelfs 4*4 = 16 bytes of storage
+
+
+
+//push adds something at the end of the array
+strings.push('e');
+
+//pop removes the last item from the array
+strings.pop(); // O(1)
+
+//unshift adds something at the beginning of the array
+strings.unshift('x'); //O(n)
+
+//splice
+strings.splice(2,0,'hello'); // O(n)
+
+console.log(strings);
